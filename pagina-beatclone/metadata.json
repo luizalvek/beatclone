@@ -1,0 +1,8 @@
+{
+  "name": "BeatCloneV2",
+  "description": "Landing page mobile-first premium para produtores e artistas de música que buscam elevar sua carreira com beats exclusivos e profissionais.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
