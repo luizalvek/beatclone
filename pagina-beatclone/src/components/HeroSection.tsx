@@ -8,7 +8,7 @@ interface HeroSectionProps {
 }
 
 const BEATCLONE_LOGO_URL = 'https://xpxvqysciqwnysufujnx.supabase.co/storage/v1/object/public/media/BeatCloneLogo.png';
-const VSL_VIDEO_URL = 'https://res.cloudinary.com/exjogwsw/video/upload/v1790301259/VslBeatCloneV1.mp4';
+const VSL_VIDEO_URL = 'https://pub-77b507c58a5640869754c46ba3b90061.r2.dev/VslBeatCloneV1.mp4';
 
 export default function HeroSection({ onCtaClick }: HeroSectionProps) {
   const todayDate = getTodayDateFormatted();

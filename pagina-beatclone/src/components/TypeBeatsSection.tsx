@@ -51,7 +51,7 @@ export default function TypeBeatsSection({ onCtaClick }: TypeBeatsSectionProps) 
       title: '[FREE] Beat Type Playboi Carti "Noturno"',
       subtitle: 'Retirado do Youtube com Direitos Autorais.',
       cover: 'https://xpxvqysciqwnysufujnx.supabase.co/storage/v1/object/public/media/beatsCapa/PlayboiAntes.png',
-      audioUrl: 'https://xpxvqysciqwnysufujnx.supabase.co/storage/v1/object/public/media/beatsAudio/PlayboiAntes.WAV',
+      audioUrl: 'https://pub-77b507c58a5640869754c46ba3b90061.r2.dev/PlayboiAntes.WAV',
       beatId: 'playboi-antes'
     },
     {
@@ -61,7 +61,7 @@ export default function TypeBeatsSection({ onCtaClick }: TypeBeatsSectionProps) 
       title: '[FREE] Beat Type Playboi Carti "Noturno"',
       subtitle: 'Recriado pela BeatClone 100% Livre de Direitos Autorais.',
       cover: 'https://xpxvqysciqwnysufujnx.supabase.co/storage/v1/object/public/media/beatsCapa/PlayboiDepois.png',
-      audioUrl: 'https://xpxvqysciqwnysufujnx.supabase.co/storage/v1/object/public/media/beatsAudio/PlayboiRecriado.WAV',
+      audioUrl: 'https://pub-77b507c58a5640869754c46ba3b90061.r2.dev/PlayboiRecriado.WAV',
       beatId: 'playboi-recriado'
     },
     // Par 2: Rockstar Brandão
@@ -72,7 +72,7 @@ export default function TypeBeatsSection({ onCtaClick }: TypeBeatsSectionProps) 
       title: 'Rockstar Brandão Instrumental',
       subtitle: 'Retirado da música do Brandão.',
       cover: 'https://xpxvqysciqwnysufujnx.supabase.co/storage/v1/object/public/media/beatsCapa/BrandaoAntes.png',
-      audioUrl: 'https://xpxvqysciqwnysufujnx.supabase.co/storage/v1/object/public/media/beatsAudio/BrandaoAntes.WAV',
+      audioUrl: 'https://pub-77b507c58a5640869754c46ba3b90061.r2.dev/BrandaoAntes.WAV',
       beatId: 'brandao-antes'
     },
     {
@@ -82,7 +82,7 @@ export default function TypeBeatsSection({ onCtaClick }: TypeBeatsSectionProps) 
       title: 'Rockstar Brandão Instrumental',
       subtitle: 'Recriado pela BeatClone 100% Livre de Direitos Autorais.',
       cover: 'https://xpxvqysciqwnysufujnx.supabase.co/storage/v1/object/public/media/beatsCapa/BrandaoDepois.png',
-      audioUrl: 'https://xpxvqysciqwnysufujnx.supabase.co/storage/v1/object/public/media/beatsAudio/BrandaoRecriado.WAV',
+      audioUrl: 'https://pub-77b507c58a5640869754c46ba3b90061.r2.dev/BrandaoRecriado.WAV',
       beatId: 'brandao-recriado'
     }
   ];
@@ -355,11 +355,12 @@ export default function TypeBeatsSection({ onCtaClick }: TypeBeatsSectionProps) 
       >
         <div className="w-[200px] sm:w-[220px] aspect-square relative rounded-2xl overflow-hidden border border-white/10 bg-[#0d0d0d] shadow-[0_12px_35px_rgba(0,0,0,0.8)]">
           <video
-            src="https://res.cloudinary.com/exjogwsw/video/upload/v1790304436/DemoLooping.mp4"
+            src="https://pub-77b507c58a5640869754c46ba3b90061.r2.dev/DemoLooping.mp4"
             autoPlay
             loop
             muted
             playsInline
+            preload="auto"
             className="w-full h-full object-cover object-bottom block pointer-events-none select-none"
           />
         </div>

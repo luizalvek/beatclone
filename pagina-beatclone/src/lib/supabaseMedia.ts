@@ -163,10 +163,10 @@ export function preloadAllAppMedia(): void {
 
   // Preload Beat Audio files
   const audioUrls = [
-    'https://xpxvqysciqwnysufujnx.supabase.co/storage/v1/object/public/media/beatsAudio/PlayboiAntes.WAV',
-    'https://xpxvqysciqwnysufujnx.supabase.co/storage/v1/object/public/media/beatsAudio/PlayboiRecriado.WAV',
-    'https://xpxvqysciqwnysufujnx.supabase.co/storage/v1/object/public/media/beatsAudio/BrandaoAntes.WAV',
-    'https://xpxvqysciqwnysufujnx.supabase.co/storage/v1/object/public/media/beatsAudio/BrandaoRecriado.WAV',
+    'https://pub-77b507c58a5640869754c46ba3b90061.r2.dev/PlayboiAntes.WAV',
+    'https://pub-77b507c58a5640869754c46ba3b90061.r2.dev/PlayboiRecriado.WAV',
+    'https://pub-77b507c58a5640869754c46ba3b90061.r2.dev/BrandaoAntes.WAV',
+    'https://pub-77b507c58a5640869754c46ba3b90061.r2.dev/BrandaoRecriado.WAV',
   ];
   audioUrls.forEach(preloadAudio);
 }
